@@ -21,9 +21,13 @@
     </header>
 
     <div class="banner clearfix">
-        <img srcset="img/mediumprofilepic.png 800w,
+        <img sizes="(max-width: 768px) 60vw,
+                    (max-width: 1024px) 40vw,
+                    (min-width: 1025px) 40vw"
+             srcset="img/smallprofilepic.png 225w,
+                    img/mediumprofilepic.png 800w,
                     img/largeprofilepic.png 1119w"
-                    src="img/smallprofilepic.png" alt="My Profile Photo" class="profile-pic"/>
+             src="img/smallprofilepic.png" alt="My Profile Photo" class="profile-pic"/>
         <p>Hi! I'm a front-end developer who loves responsive design and css. I recently finished a degree in front-end web development at Treehouse and am excited to put all my skills to use!</p>
     </div>
 
