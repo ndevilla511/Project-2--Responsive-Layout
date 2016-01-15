@@ -126,7 +126,7 @@ p {
   Media Queries
 ==================================== */
 
-@media (min-width: 769px) {
+@media (min-width: 768px) {
 
     .main-header {
         background-color: #f5f5f5;
@@ -213,7 +213,7 @@ p {
 
 }
 
-@media (min-width: 1025px) {
+@media (min-width: 1024px) {
     body {
         margin-top: 86px;
     }
